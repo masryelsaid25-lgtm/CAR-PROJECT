@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BMW 2025 Dynamic</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Car Egypt</h1>
+    <p>PMW</p>
+</header>
+
+<section class="controls">
+    <input type="text" id="search" placeholder="ابحث عن موديل...">
+    
+    <select id="filterType">
+        <option value="all">كل الفئات</option>
+        <option value="sedan">سيدان</option>
+        <option value="suv">SUV</option>
+        <option value="electric">كهربائية</option>
+        <option value="m">M Performance</option>
+    </select>
+
+    <select id="sortPrice">
+        <option value="default">ترتيب حسب السعر</option>
+        <option value="low">من الأقل للأعلى</option>
+        <option value="high">من الأعلى للأقل</option>
+    </select>
+</section>
+
+<section id="carsContainer" class="cars"></section>
+
+<!-- Modal -->
+<div id="carModal" class="modal">
+    <div class="modal-content">
+        <span id="closeModal">&times;</span>
+        <div id="modalDetails"></div>
+    </div>
+</div>
+
+<footer>
+    © 2026 BMW Dynamic Experience
+</footer>
+<section id="carsContainer" class="cars"></section>
+
+<div id="carModal" class="modal">
+  <div class="modal-content">
+    <span id="closeModal">&times;</span>
+    <div id="modalDetails"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
